@@ -37,7 +37,7 @@ $.AdminLTE.options = {
     //This requires you to load the slimscroll plugin
     //in every page before app.js
     navbarMenuSlimscroll: true,
-    navbarMenuSlimscrollWidth: "3px", //The width of the scroll bar
+    navbarMenuSlimscrollWidth: "5px", //The width of the scroll bar
     navbarMenuHeight: "200px", //The height of the inner menu
     //General animation speed for JS animated elements such as box collapse/expand and
     //sidebar treeview slide up/down. This options accepts an integer as milliseconds,
@@ -54,15 +54,15 @@ $.AdminLTE.options = {
     //are used together
     sidebarExpandOnHover: false,
     //BoxRefresh Plugin
-    enableBoxRefresh: true,
+    enableBoxRefresh: false,
     //Bootstrap.js tooltip
-    enableBSToppltip: true,
+    enableBSToppltip: false,
     BSTooltipSelector: "[data-toggle='tooltip']",
     //Enable Fast Click. Fastclick.js creates a more
     //native touch experience with touch devices. If you
     //choose to enable the plugin, make sure you load the script
     //before AdminLTE's app.js
-    enableFastclick: true,
+    enableFastclick: false,
     //Control Sidebar Options
     enableControlSidebar: true,
     controlSidebarOptions: {
